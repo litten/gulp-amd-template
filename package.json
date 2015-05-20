@@ -1,0 +1,34 @@
+{
+  "name": "gulp-amd-template",
+  "version": "1.0.0",
+  "description": "to compile templates into JS source code with AMD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/litten/gulp-amd-template.git"
+  },
+  "keywords": [
+    "gulp",
+    "template",
+    "compile"
+  ],
+  "author": {
+    "name": "litten",
+    "email": "tengfeiok@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/litten/gulp-amd-template/issues"
+  },
+  "homepage": "https://github.com/litten/gulp-amd-template",
+  "dependencies": {
+    "gulp-util": "^3.0.2",
+    "lodash": "^2.4.1",
+    "through2": "^0.6.3",
+    "micro-tpl": "*",
+    "js-beautify": "*"
+  }
+}
